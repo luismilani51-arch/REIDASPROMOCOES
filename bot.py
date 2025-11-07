@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import requests
 from bs4 import BeautifulSoup
 
-TOKEN = "SEU_TOKEN_AQUI"  # coloque o token do BotFather aqui
+TOKEN = "8412456444:AAG5fLXAr18Do6c4KMIjDdPX5xLqBw_G0wc" 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 Olá! Envie um link da Shopee que eu gero o anúncio pra você.")
