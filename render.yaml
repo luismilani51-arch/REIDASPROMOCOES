@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: shopee-bot
+    name: reidaspromocoes
     env: python
     buildCommand: ""
     startCommand: "python bot.py"
