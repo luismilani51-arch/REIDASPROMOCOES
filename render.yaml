@@ -2,6 +2,5 @@ services:
   - type: web
     name: reidaspromocoes
     env: python
-    buildCommand: ""
     startCommand: "python main.py"
-    plan: free
+
